@@ -1,0 +1,733 @@
+[
+  {
+    "course":"Mental Health Conversation",
+    "image":"https://d2b099b4jqara7.cloudfront.net/CoursesImages/MentalHealthC.svg",
+    "id":"1",
+    "author": {
+      "name":"MyMentalWellbeing",
+      "image":"https://nerdy-my-ecommerce.s3.us-east-2.amazonaws.com/MyMentalWellbeing/AuthorIcon.svg",
+      "profession":"Health Center"
+    },
+    "students":[],
+    "rating":[],
+    "steps": [
+      {
+        "title": "Introduction to Mental Health in the Workplace",
+        "list": [
+          {
+            "name": "Importance of mental health conversations at work",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed": false
+      },
+      {
+        "title": "Recognizing Signs of Mental Health Issues",
+        "list": [
+          {
+            "name": "Identifying common indicators in colleagues",
+            "type": "video",
+            "duration": 3,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed": false
+      },
+      {
+        "title": "Creating a Safe Space for Conversation",
+        "list": [
+          {
+            "name": "Techniques for establishing trust and confidentiality",
+            "type": "video",
+            "duration": 4,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed": false
+      },
+      {
+        "title": "Effective Communication Skills",
+        "list": [
+          {
+            "name": "Listening actively and speaking empathetically",
+            "type": "video",
+            "duration": 3,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed": false
+      },
+      {
+        "title": "Addressing Mental Health Stigma",
+        "list": [
+          {
+            "name": "Challenging misconceptions and fostering a supportive culture",
+            "type": "video",
+            "duration": 3,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed": false
+      },
+      {
+        "title": "Navigating Difficult Conversations",
+        "list": [
+          {
+            "name": "Strategies for handling sensitive topics and emotional reactions",
+            "type": "video",
+            "duration": 4,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed": false
+      },
+      {
+        "title": "Providing Support and Resources",
+        "list": [
+          {
+            "name": "Guiding colleagues towards professional help and support services",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed": false
+      },
+      {
+        "title": "Follow-Up and Continuous Support ",
+        "list": [
+          {
+            "name": "Maintaining ongoing communication and check-ins",
+            "type": "video",
+            "duration": 3,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed": false
+      }
+    ]
+  },
+  {
+    "course":"Stress Management",
+    "image":"https://d2b099b4jqara7.cloudfront.net/CoursesImages/Stress.pptx.svg",
+    "id":"2",
+    "author": {
+      "name":"MyMentalWellbeing",
+      "image":"https://nerdy-my-ecommerce.s3.us-east-2.amazonaws.com/MyMentalWellbeing/AuthorIcon.svg",
+      "profession":"Health Center"
+    },
+    "students":[],
+    "rating":[],
+    "steps": [
+      {
+        "title": "Introduction",
+        "list": [
+          {
+            "name": " Leadership in a fast-paced world",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "https://d2b099b4jqara7.cloudfront.net/Videos/Stress+Management/Introduction.m4v"
+          },
+          {
+            "name": "Creating a Safe Haven: The Role of Psychological Safety in Stress Management",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "https://d2b099b4jqara7.cloudfront.net/Videos/Stress+Management/Psychological+safety.m4v"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Understanding Stress",
+        "list": [
+          {
+            "name": "Definition and Dynamics of Stress",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Types of Stress (Eustress, Distress, Chronic Stress)",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Stress in Millennials and Gen Z",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Navigating The Complexity Of Stress Responses",
+        "list": [
+          {
+            "name": "Personal and Workplace Stressors",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "https://d2b099b4jqara7.cloudfront.net/Videos/Stress+Management/Navigating+the+complexity+of+stress+responses.m4v"
+          },
+          {
+            "name": "Physical and Emotional Indicators of Stress",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "https://d2b099b4jqara7.cloudfront.net/Videos/Stress+Management/Nine+universal+symptoms+to+look+out+for.m4v"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Stress and Personality ",
+        "list": [
+          {
+            "name": "Stress Responses Based on Personality Types",
+            "type": "video",
+            "duration": 3,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Personality Assessments Related to Stress",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Managing Stress",
+        "list": [
+          {
+            "name": "Techniques for Stress Reduction",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Real-Time Tools for Managing Momentary Stress",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Coping Mechanisms",
+        "list": [
+          {
+            "name": "Developing Resilience",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Long-Term Strategies for Stress Management",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Lifestyle Adjustments",
+        "list": [
+          {
+            "name": "Exercise, Diet, and Sleep's Role in Managing Stress",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Mindfulness and Relaxation Techniques",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Workplace Well-being",
+        "list": [
+          {
+            "name": "Facilitating Supportive Conversations: Addressing Employee Absences and Mental Health Concerns",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "https://d2b099b4jqara7.cloudfront.net/Videos/Stress+Management/Facilitating+Supportive+Conversations.m4v"
+          },
+          {
+            "name": "Stress Management for Organizational Health",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "https://d2b099b4jqara7.cloudfront.net/Videos/Stress+Management/Facilitating+Supportive+Conversations+a+step+by+step+checklist.m4v"
+          },
+          {
+            "name": "Facilitating Supportive Conversations: Returning from Stress sick-leave Check-In",
+            "type": "video",
+            "duration": 3,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "https://d2b099b4jqara7.cloudfront.net/Videos/Stress+Management/Facilitating+Supportive+Conversations+Returning+from+Stress+sick+leave+Check+In.m4v"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Assessment and Feedback",
+        "list": [
+          {
+            "name": "Evaluating Stress Levels Pre and Post Course",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Participant Feedback for Course Improvement",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      }
+    ]
+  },
+  {
+    "course":"Burnout Prevention",
+    "image":"https://d2b099b4jqara7.cloudfront.net/CoursesImages/BurnoutPrevention.svg",
+    "id":"3",
+    "author": {
+      "name":"MyMentalWellbeing",
+      "image":"https://nerdy-my-ecommerce.s3.us-east-2.amazonaws.com/MyMentalWellbeing/AuthorIcon.svg",
+      "profession":"Health Center"
+    },
+    "students":[],
+    "rating":[],
+    "steps": [
+      {
+        "title": "Introduction to Burnout Prevention",
+        "list": [
+          {
+            "name": "Definition and overview of burnout",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Importance of addressing burnout",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Understanding Burnout",
+        "list": [
+          {
+            "name": "Symptoms and signs of burnout",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Types of burnout: Overload, Under-challenge, Neglect",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Recognizing Burnout in Different Contexts ",
+        "list": [
+          {
+            "name": "Burnout in different age groups and genders",
+            "type": "video",
+            "duration": 1.5,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Impact of pandemic and social media",
+            "type": "video",
+            "duration": 1.5,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Stress vs. Burnout ",
+        "list": [
+          {
+            "name": "Differences between stress and burnout",
+            "type": "video",
+            "duration": 1.5,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Relationship between chronic stress and burnout",
+            "type": "video",
+            "duration": 1.5,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Personal Factors Contributing to Burnout",
+        "list": [
+          {
+            "name": "Personal habits and lifestyle choices",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Coping mechanisms and resilience building",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Workplace Factors Leading to Burnout",
+        "list": [
+          {
+            "name": "Organizational culture and workload management",
+            "type": "video",
+            "duration": 1.5,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Strategies for creating a supportive work environment",
+            "type": "video",
+            "duration": 1.5,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Strategies for Burnout Prevention",
+        "list": [
+          {
+            "name": "Self-care and body budget",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Mindfulness and Relaxation Techniques",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Implementing Organizational Change",
+        "list": [
+          {
+            "name": "Role of leadership in preventing burnout",
+            "type": "video",
+            "duration": 1.5,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Building an inclusive and supportive workplace culture",
+            "type": "video",
+            "duration": 1.5,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Interactive Assessment and Feedback",
+        "list": [
+          {
+            "name": "Self-assessment tools for identifying burnout",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          },
+          {
+            "name": "Open discussion and sharing of experiences",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      }
+    ]
+  },
+  {
+    "course":"Building Resilience",
+    "image":"https://d2b099b4jqara7.cloudfront.net/CoursesImages/Resilience.svg",
+    "id":"4",
+    "author": {
+      "name":"MyMentalWellbeing",
+      "image":"https://nerdy-my-ecommerce.s3.us-east-2.amazonaws.com/MyMentalWellbeing/AuthorIcon.svg",
+      "profession":"Health Center"
+    },
+    "students":[],
+    "rating":[],
+    "steps": [
+      {
+        "title": "Introduction to Resilience",
+        "list": [
+          {
+            "name": "Overview of resilience and its importance",
+            "type": "video",
+            "duration": 2,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "The Concept of Inner Battery",
+        "list": [
+          {
+            "name": "Understanding and managing energy throughout the day",
+            "type": "video",
+            "duration": 3,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Identifying Maladaptive Coping Strategies",
+        "list": [
+          {
+            "name": "Recognizing common unhelpful coping mechanisms",
+            "type": "video",
+            "duration": 3,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Building Mental, Emotional, Physical, and Social Resilience",
+        "list": [
+          {
+            "name": "Tools and strategies for comprehensive resilience building",
+            "type": "video",
+            "duration": 4,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Applying Resilience in Daily Life",
+        "list": [
+          {
+            "name": "Practical examples and scenarios",
+            "type": "video",
+            "duration": 3,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Creating a Personal Resilience Plan",
+        "list": [
+          {
+            "name": "Guided activity for developing individual resilience strategies",
+            "type": "video",
+            "duration": 3,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      },
+      {
+        "title": "Conclusion and Next Steps",
+        "list": [
+          {
+            "name": "Summarizing key takeaways and future application",
+            "type": "video",
+            "duration": 1,
+            "prerequisite": false,
+            "questions": null,
+            "completed": false,
+            "video": "/videos/dummy.mp4"
+          }
+        ],
+        "completed":false
+      }
+    ]
+  }
+]
