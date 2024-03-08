@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBBNXFMk4Iv4Va34g0zfofYMt0DDnpR1ss",
-  authDomain: "mymentalwellbeing-1b7c7.firebaseapp.com",
-  projectId: "mymentalwellbeing-1b7c7",
-  storageBucket: "mymentalwellbeing-1b7c7.appspot.com",
-  messagingSenderId: "883615416193",
-  appId: "1:883615416193:web:23c73c514ba63329aa3280"
+  apiKey: "AIzaSyDvePolkHbT9vHHAAHNm_9jeRDit-piw0o",
+  authDomain: "mymentalwellbeing--mvp.firebaseapp.com",
+  projectId: "mymentalwellbeing--mvp",
+  storageBucket: "mymentalwellbeing--mvp.appspot.com",
+  messagingSenderId: "377059469902",
+  appId: "1:377059469902:web:b2c5211ffbe02139e6f11f"
 };
 
 

@@ -155,7 +155,7 @@
             "prerequisite": false,
             "questions": null,
             "completed": false,
-            "video": "https://d2b099b4jqara7.cloudfront.net/Videos/Stress+Management/Introduction.m4v"
+            "video": "https://storage.cloud.google.com/mmw-courses-videos/Stress%20Management/Introduction.m4v"
           },
           {
             "name": "Creating a Safe Haven: The Role of Psychological Safety in Stress Management",
@@ -164,7 +164,7 @@
             "prerequisite": false,
             "questions": null,
             "completed": false,
-            "video": "https://d2b099b4jqara7.cloudfront.net/Videos/Stress+Management/Psychological+safety.m4v"
+            "video": "https://storage.cloud.google.com/mmw-courses-videos/Stress%20Management/Psychological%20safety.m4v"
           }
         ],
         "completed":false
@@ -212,7 +212,7 @@
             "prerequisite": false,
             "questions": null,
             "completed": false,
-            "video": "https://d2b099b4jqara7.cloudfront.net/Videos/Stress+Management/Navigating+the+complexity+of+stress+responses.m4v"
+            "video": "https://storage.cloud.google.com/mmw-courses-videos/Stress%20Management/Navigating%20the%20complexity%20of%20stress%20responses.m4v"
           },
           {
             "name": "Physical and Emotional Indicators of Stress",
@@ -221,7 +221,7 @@
             "prerequisite": false,
             "questions": null,
             "completed": false,
-            "video": "https://d2b099b4jqara7.cloudfront.net/Videos/Stress+Management/Nine+universal+symptoms+to+look+out+for.m4v"
+            "video": "https://storage.cloud.google.com/mmw-courses-videos/Stress%20Management/Nine%20universal%20symptoms%20to%20look%20out%20for.m4v"
           }
         ],
         "completed":false
@@ -332,7 +332,7 @@
             "prerequisite": false,
             "questions": null,
             "completed": false,
-            "video": "https://d2b099b4jqara7.cloudfront.net/Videos/Stress+Management/Facilitating+Supportive+Conversations.m4v"
+            "video": "https://storage.cloud.google.com/mmw-courses-videos/Stress%20Management/Facilitating%20Supportive%20Conversations.m4v"
           },
           {
             "name": "Stress Management for Organizational Health",
@@ -341,7 +341,7 @@
             "prerequisite": false,
             "questions": null,
             "completed": false,
-            "video": "https://d2b099b4jqara7.cloudfront.net/Videos/Stress+Management/Facilitating+Supportive+Conversations+a+step+by+step+checklist.m4v"
+            "video": "https://storage.cloud.google.com/mmw-courses-videos/Stress%20Management/Facilitating%20Supportive%20Conversations%20a%20step%20by%20step%20checklist.m4v"
           },
           {
             "name": "Facilitating Supportive Conversations: Returning from Stress sick-leave Check-In",
@@ -350,7 +350,7 @@
             "prerequisite": false,
             "questions": null,
             "completed": false,
-            "video": "https://d2b099b4jqara7.cloudfront.net/Videos/Stress+Management/Facilitating+Supportive+Conversations+Returning+from+Stress+sick+leave+Check+In.m4v"
+            "video": "https://storage.cloud.google.com/mmw-courses-videos/Stress%20Management/Facilitating%20Supportive%20Conversations%20Returning%20from%20Stress%20sick%20leave%20Check%20In.m4v"
           }
         ],
         "completed":false
