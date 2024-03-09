@@ -29,7 +29,7 @@ const initialForm = {
 const Account = () => {
 
   const uploadRef = useRef<HTMLInputElement | null>(null)
-  const [user] = useFirebaseUser(state => [state.user]);
+  const [user, setUser] = useFirebaseUser(state => [state.user, state.setUser]);
   const router = useRouter();
 
   const [form, setForm] = useState(initialForm);
@@ -73,6 +73,82 @@ const Account = () => {
     };
   };
 
+  // const handleUpload = async(e:ChangeEvent<HTMLInputElement>) =>{
+  //   if(user){
+  //     const file = e.target.files;
+  //     if(file && file.length > 0){
+        
+  //       const fileName = file[0].name.replaceAll(" ", "").toLowerCase(); 
+  //       const fileType = file[0].type;
+  //       if(fileType !== "image/png" && fileType !== "image/jpg" && fileType !== "image/svg+xml"){
+  //         return toast.warning("We're sorry", {
+  //           description: `Only SVG, PNG & JPEG formats are accepted!`,
+  //           duration: 3000,
+  //           closeButton: true,
+  //         })
+  //       };  
+  
+  //       const reader = new FileReader();
+  //       reader.readAsDataURL(file[0]);
+  //       reader.onloadend = function() {
+  //         const base64data = reader.result;
+  //         const formData = {
+  //           file: base64data,
+  //           fileName: fileName,
+  //           fileType: fileType
+  //         };
+          
+  //         setUpdatingImage(true);
+  
+  //         fetch("/api/uploadGCP", {
+  //           method:"POST",
+  //           headers: {
+  //             'Content-Type': 'application/json'
+  //           },
+  //           body: JSON.stringify(formData)
+  //         })
+  //       .then(res => res.ok ? res.json() : Promise.reject(res))
+  //       .then(json => {
+  //         if(json.success){
+  //           // If image uploads to AWS, we update user image.
+  //           const userRef = doc(db, "Users", user.uid!);
+  //           updateDoc(userRef, {
+  //             image:`https://storage.googleapis.com/mmw-users-profile-pictures/${fileName}`
+  //           })
+  //           .then(()=> {
+  //             toast.success("Profile picture updated!", {
+  //               description: `${new Date().toLocaleString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true })}`,
+  //               duration: 3000,
+  //               closeButton: true,
+  //             })
+  //           })
+  //           .catch(error => {
+  //             toast.warning("Whoops!", {
+  //               description: `Something went wrong, please try again later. Remember only SVG, PNG & JPEG formats are accepted!`,
+  //               duration: 3000,
+  //               closeButton: true,
+  //             })
+  //           })
+  //         }else{
+  
+  //         }
+  //       })
+  //       // If image is not uploaded to AWS, throw error.
+  //       .catch(error => {
+  //         toast.warning("Whoops!", {
+  //           description: `Something went wrong, please try again later.`,
+  //           duration: 3000,
+  //           closeButton: true,
+  //         })
+  //       })
+  //       .finally(()=> {
+  //         setUpdatingImage(false);
+  //       })
+  //       }
+  //     };  
+  //   }
+  // };
+
   const handleUpload = async(e:ChangeEvent<HTMLInputElement>) =>{
     if(user){
       const file = e.target.files;
@@ -92,14 +168,19 @@ const Account = () => {
         const binaryFile = await file[0].arrayBuffer();
         const fileBuffer = Buffer.from(binaryFile);
         
+        // NOTE: Added for GCP, not needed for AWS
+        const base64File = fileBuffer.toString('base64');
+
+        
         setUpdatingImage(true);
 
-        fetch("/api/uploadS3", {
+        fetch("/api/uploadGCP", {
           method:"POST",
           headers:{
             "Content-type":"application/json"
           },
           body:JSON.stringify({
+            file: base64File,
             fileType,
             fileName,
             fileBuffer
@@ -111,9 +192,11 @@ const Account = () => {
             // If image uploads to AWS, we update user image.
             const userRef = doc(db, "Users", user.uid!);
             updateDoc(userRef, {
-              image:`https://d2b099b4jqara7.cloudfront.net/${fileName}`
+              image:`https://storage.googleapis.com/mmw-users-profile-pictures/${fileName}`
             })
             .then(()=> {
+              // NOTE: setUser added for GCP, not needed when AWS is used.
+              setUser({...user, image: `https://storage.googleapis.com/mmw-users-profile-pictures/${fileName}`})
               toast.success("Profile picture updated!", {
                 description: `${new Date().toLocaleString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true })}`,
                 duration: 3000,

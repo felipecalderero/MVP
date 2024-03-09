@@ -1,11 +1,11 @@
 [
   {
     "course":"Mental Health Conversation",
-    "image":"https://d2b099b4jqara7.cloudfront.net/CoursesImages/MentalHealthC.svg",
+    "image":"https://storage.googleapis.com/mmw-courses-images/Mental%20Health%20Conversation/MentalHealth.svg",
     "id":"1",
     "author": {
       "name":"MyMentalWellbeing",
-      "image":"https://nerdy-my-ecommerce.s3.us-east-2.amazonaws.com/MyMentalWellbeing/AuthorIcon.svg",
+      "image":"https://storage.googleapis.com/mmw-front-end-resources/AuthorImage.png",
       "profession":"Health Center"
     },
     "students":[],
@@ -135,11 +135,11 @@
   },
   {
     "course":"Stress Management",
-    "image":"https://d2b099b4jqara7.cloudfront.net/CoursesImages/Stress.pptx.svg",
+    "image":"https://storage.googleapis.com/mmw-courses-images/Stress%20Management/StressManagement.svg",
     "id":"2",
     "author": {
       "name":"MyMentalWellbeing",
-      "image":"https://nerdy-my-ecommerce.s3.us-east-2.amazonaws.com/MyMentalWellbeing/AuthorIcon.svg",
+      "image":"https://storage.googleapis.com/mmw-front-end-resources/AuthorImage.png",
       "profession":"Health Center"
     },
     "students":[],
@@ -155,7 +155,7 @@
             "prerequisite": false,
             "questions": null,
             "completed": false,
-            "video": "https://storage.cloud.google.com/mmw-courses-videos/Stress%20Management/Introduction.m4v"
+            "video": "https://storage.googleapis.com/mmw-courses-videos/Stress%20Management/Introduction.m4v"
           },
           {
             "name": "Creating a Safe Haven: The Role of Psychological Safety in Stress Management",
@@ -164,7 +164,7 @@
             "prerequisite": false,
             "questions": null,
             "completed": false,
-            "video": "https://storage.cloud.google.com/mmw-courses-videos/Stress%20Management/Psychological%20safety.m4v"
+            "video": "https://storage.googleapis.com/mmw-courses-videos/Stress%20Management/Psychological%20safety.m4v"
           }
         ],
         "completed":false
@@ -212,7 +212,7 @@
             "prerequisite": false,
             "questions": null,
             "completed": false,
-            "video": "https://storage.cloud.google.com/mmw-courses-videos/Stress%20Management/Navigating%20the%20complexity%20of%20stress%20responses.m4v"
+            "video": "https://storage.googleapis.com/mmw-courses-videos/Stress%20Management/Navigating%20the%20complexity%20of%20stress%20responses.m4v"
           },
           {
             "name": "Physical and Emotional Indicators of Stress",
@@ -221,7 +221,7 @@
             "prerequisite": false,
             "questions": null,
             "completed": false,
-            "video": "https://storage.cloud.google.com/mmw-courses-videos/Stress%20Management/Nine%20universal%20symptoms%20to%20look%20out%20for.m4v"
+            "video": "https://storage.googleapis.com/mmw-courses-videos/Stress%20Management/Nine%20universal%20symptoms%20to%20look%20out%20for.m4v"
           }
         ],
         "completed":false
@@ -332,7 +332,7 @@
             "prerequisite": false,
             "questions": null,
             "completed": false,
-            "video": "https://storage.cloud.google.com/mmw-courses-videos/Stress%20Management/Facilitating%20Supportive%20Conversations.m4v"
+            "video": "https://storage.googleapis.com/mmw-courses-videos/Stress%20Management/Facilitating%20Supportive%20Conversations.m4v"
           },
           {
             "name": "Stress Management for Organizational Health",
@@ -341,7 +341,7 @@
             "prerequisite": false,
             "questions": null,
             "completed": false,
-            "video": "https://storage.cloud.google.com/mmw-courses-videos/Stress%20Management/Facilitating%20Supportive%20Conversations%20a%20step%20by%20step%20checklist.m4v"
+            "video": "https://storage.googleapis.com/mmw-courses-videos/Stress%20Management/Facilitating%20Supportive%20Conversations%20a%20step%20by%20step%20checklist.m4v"
           },
           {
             "name": "Facilitating Supportive Conversations: Returning from Stress sick-leave Check-In",
@@ -350,7 +350,7 @@
             "prerequisite": false,
             "questions": null,
             "completed": false,
-            "video": "https://storage.cloud.google.com/mmw-courses-videos/Stress%20Management/Facilitating%20Supportive%20Conversations%20Returning%20from%20Stress%20sick%20leave%20Check%20In.m4v"
+            "video": "https://storage.googleapis.com/mmw-courses-videos/Stress%20Management/Facilitating%20Supportive%20Conversations%20Returning%20from%20Stress%20sick%20leave%20Check%20In.m4v"
           }
         ],
         "completed":false
@@ -383,11 +383,11 @@
   },
   {
     "course":"Burnout Prevention",
-    "image":"https://d2b099b4jqara7.cloudfront.net/CoursesImages/BurnoutPrevention.svg",
+    "image":"https://storage.googleapis.com/mmw-courses-images/Burnout%20Prevention/BurnoutPrevention2.svg",
     "id":"3",
     "author": {
       "name":"MyMentalWellbeing",
-      "image":"https://nerdy-my-ecommerce.s3.us-east-2.amazonaws.com/MyMentalWellbeing/AuthorIcon.svg",
+      "image":"https://storage.googleapis.com/mmw-front-end-resources/AuthorImage.png",
       "profession":"Health Center"
     },
     "students":[],
@@ -613,11 +613,11 @@
   },
   {
     "course":"Building Resilience",
-    "image":"https://d2b099b4jqara7.cloudfront.net/CoursesImages/Resilience.svg",
+    "image":"https://storage.googleapis.com/mmw-courses-images/Building%20Resilience/BuildingResilience.svg",
     "id":"4",
     "author": {
       "name":"MyMentalWellbeing",
-      "image":"https://nerdy-my-ecommerce.s3.us-east-2.amazonaws.com/MyMentalWellbeing/AuthorIcon.svg",
+      "image":"https://storage.googleapis.com/mmw-front-end-resources/AuthorImage.png",
       "profession":"Health Center"
     },
     "students":[],
