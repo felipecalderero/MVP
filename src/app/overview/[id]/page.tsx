@@ -205,7 +205,7 @@ const Overview = ({params:{id}}:Props) => {
           progress: 0
         };
         
-        const coursesRef = doc(db, "Courses", "MFMs9KWTmxddL7Sbdxhmellv8P73");
+        const coursesRef = doc(db, "Courses", "FEGU1B4ut2XPwYX7NdQawTVCdZ82");
         const userRef = doc(db, "Users", user.uid!);
         // Add the course to the user courses
         updateDoc(userRef, {
